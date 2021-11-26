@@ -1,2 +1,8 @@
 # ignore build folder
-build/*
+build
+build/.ninja_deps
+build/.ninja_log
+build/meson-logs/meson-log.txt
+build/meson-private/build.dat
+build/meson-private/cmd_line.txt
+build/meson-private/coredata.dat
