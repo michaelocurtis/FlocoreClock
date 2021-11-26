@@ -1,0 +1,4 @@
+# ninja log v5
+0	389	1637966528981863640	com.github.michael-curtis0.clockapp@exe/src/Application.c	f4436e8a8bd53f41
+389	661	1637966529329890949	com.github.michael-curtis0.clockapp@exe/meson-generated_src_Application.c.o	3799578fc67e9a54
+662	752	1637966529417897854	com.github.michael-curtis0.clockapp	3310d56b6a201ca8

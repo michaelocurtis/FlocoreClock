@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Michael's Clock
+GenericName=Michael's Clock App
+Comment=Simple clock app.
+Categories=Utility;
+Exec=com.github.michael-curtis0.clockapp
+Icon=com.github.michael-curtis0.clockapp
+Terminal=false
+Type=Application
+Keywords=Clock;Clock App;Michael's Clock;MichaelsClock;Michael'sClock;Michael Clock;MichaelClock;

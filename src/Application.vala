@@ -1,7 +1,12 @@
+/*
+ * SPDX-License-Identifier: MIT
+ * SPDX-FileCopyrightText: 2021 Michael Curtis
+ */
+
 public class ClockApp : Gtk.Application {
     public ClockApp () {
         Object (
-            application_id: "com.github.michael-curtis0.clockapp",
+            application_id: "com.github.michael-curtis0.michaels-clock-app",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -10,8 +15,11 @@ public class ClockApp : Gtk.Application {
         var main_window = new Gtk.ApplicationWindow (this) {
             default_height = 300,
             default_width = 300,
-            title = "Hello World"
+            title = "Michael's Clock"
         };
+        var label = new Gtk.Label ("Clock");
+
+        main_window.add (label);
         main_window.show_all ();
     }
     public static int main (string[] args) {

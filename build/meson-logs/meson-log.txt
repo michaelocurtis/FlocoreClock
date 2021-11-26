@@ -1,0 +1,129 @@
+Build started at 2021-11-26T22:39:57.034539
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/michaelcurtis/VS/clock
+Build dir: /home/michaelcurtis/VS/clock/build
+Build type: native build
+Project name: com.github.michael-curtis0.clockapp
+Project version: undefined
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.c -o /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+No VALAFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Running compile:
+Working directory:  /tmp/tmpwnt_yqyb
+Command line:  valac /tmp/tmpwnt_yqyb/testfile.vala -C 
+
+Code:
+ class MesonSanityCheck : Object { }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Vala compiler for the build machine: valac (valac 0.48.19)
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.c -o /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/michaelcurtis/VS/clock/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+No VALAFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Using cached compile:
+Cached command line:  valac /tmp/tmpwnt_yqyb/testfile.vala -C 
+
+Code:
+ class MesonSanityCheck : Object { }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Vala compiler for the host machine: valac (valac 0.48.19)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (1.6.3)
+Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gtk+-3.0` -> 0
+3.24.20
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gtk+-3.0` -> 0
+-I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/at-spi-2.0 -pthread
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Running compile:
+Working directory:  /home/michaelcurtis/VS/clock/build/meson-private/tmpt82gvu1l
+Command line:  cc /home/michaelcurtis/VS/clock/build/meson-private/tmpt82gvu1l/testfile.c -o /home/michaelcurtis/VS/clock/build/meson-private/tmpt82gvu1l/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/michaelcurtis/VS/clock/build/meson-private/tmp06lvzo8e
+Command line:  cc /home/michaelcurtis/VS/clock/build/meson-private/tmp06lvzo8e/testfile.c -o /home/michaelcurtis/VS/clock/build/meson-private/tmp06lvzo8e/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency gtk+-3.0 found: YES 3.24.20
+Build targets in project: 1
+
+Found ninja-1.10.0 at /usr/bin/ninja
