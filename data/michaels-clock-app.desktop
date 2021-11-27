@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=Michael's Clock
 GenericName=Michael's Clock App
-Comment=Simple clock app.
+Comment=Simple clock app
 Categories=Utility;
-Exec=com.github.michael-curtis0.clockapp
-Icon=com.github.michael-curtis0.clockapp
+Exec=com.github.michael_curtis0.michaels-clock-app
+Icon=com.github.michael_curtis0.michaels-clock-app
 Terminal=false
 Type=Application
-Keywords=Clock;Clock App;Michael's Clock;MichaelsClock;Michael'sClock;Michael Clock;MichaelClock;
+Keywords=Clock;Clock App;Michael'sClock;MichaelsClock;Michael'sClock;MichaelClock;MichaelClock;

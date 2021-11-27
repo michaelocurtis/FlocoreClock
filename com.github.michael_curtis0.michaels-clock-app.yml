@@ -1,0 +1,19 @@
+app-id: com.github.michael_curtis0.michaels-clock-app
+
+runtime: io.elementary.Platform
+runtime-version: '6'
+sdk: io.elementary.Sdk
+
+command: com.github.michael_curtis0.michaels-clock-app
+
+finish-args:
+    - '--share=ipc'
+    - '--socket=fallback-x11'
+    - '--socket=wayland'
+
+modules:
+  - name: michaels-clock-app
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .

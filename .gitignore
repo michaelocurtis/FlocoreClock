@@ -6,3 +6,4 @@ build/meson-logs/meson-log.txt
 build/meson-private/build.dat
 build/meson-private/cmd_line.txt
 build/meson-private/coredata.dat
+.flatpak-builder
