@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2021 Michael Curtis -->
 <component type="desktop">
-  <id>com.github.michael_curtis0.clockapp</id>
+  <id>com.github.michael_curtis0.michaels-clock-app</id>
   <metadata_license>MIT</metadata_license>
   <name>Michael's Clock App</name>
   <summary>A Clock by Michael.</summary>
