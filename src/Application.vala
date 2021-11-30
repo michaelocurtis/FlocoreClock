@@ -1,12 +1,12 @@
 /*
  * SPDX-License-Identifier: MIT
- * SPDX-FileCopyrightText: 2021 Flocore Curtis
+ * SPDX-FileCopyrightText: 2021 Flocore
  */
 
 public class ClockApp : Gtk.Application {
     public ClockApp () {
         Object (
-            application_id: "ccom.github.flocore.flocoreclock",
+            application_id: "com.github.flocore.flocoreclock",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -46,7 +46,6 @@ public class ClockApp : Gtk.Application {
 
     }
     public static int main (string[] args) {
-
         return new ClockApp ().run (args);
     }
 }
