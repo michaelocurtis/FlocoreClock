@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Michael's Clock
-GenericName=Michael's Clock App
+Name=Flocore Clock
+GenericName=Flocore Clock
 Comment=Simple clock app
 Categories=Utility;
-Exec=com.github.michael_curtis0.michaels-clock-app
-Icon=com.github.michael_curtis0.michaels-clock-app
+Exec=com.github.flocore.flocoreclock
+Icon=com.github.flocore.flocoreclock
 Terminal=false
 Type=Application
-Keywords=Clock;MichaelsClock;MichaelClock;
+Keywords=Clock;FlocoreClock;FlocoresClock;

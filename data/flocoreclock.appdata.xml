@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2021 Flocore -->
 <component type="desktop">
-  <id>com.github.flocoreclock.flocoreclock</id>
+  <id>com.github.flocore.flocoreclock</id>
   <metadata_license>MIT</metadata_license>
-  <name>Michael's Clock App</name>
+  <name>Flocore Clock</name>
   <summary>A Clock by Flocore.</summary>
   <description>
     <p>A Clock app by Flocore.</p>

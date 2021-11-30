@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: MIT
- * SPDX-FileCopyrightText: 2021 Michael Curtis
+ * SPDX-FileCopyrightText: 2021 Flocore Curtis
  */
 
 public class ClockApp : Gtk.Application {
