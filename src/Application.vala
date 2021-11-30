@@ -11,8 +11,14 @@ public class ClockApp : Gtk.Application {
         );
     }
 
-    public string current_time () {
-        var time = new DateTime.now ();
+    public string current_utc_time () {
+        var time = new DateTime.now_utc ();
+        var formatted_time = time.format ("%a %Y-%m-%d %H:%M:%S %Z");
+        return formatted_time;
+    }
+
+    public string current_local_time () {
+        var time = new DateTime.now_local ();
         var formatted_time = time.format ("%a %Y-%m-%d %H:%M:%S %Z");
         return formatted_time;
     }
@@ -26,19 +32,28 @@ public class ClockApp : Gtk.Application {
 
         // add clock grid
         var grid = new Gtk.Grid() {
-            halign = Gtk.Align.CENTER
+            valign = Gtk.Align.CENTER,
+            halign = Gtk.Align.CENTER,
+            expand = true
         };
 
-        var label = new Gtk.Label (current_time());
+        var utc_time = new Gtk.Label (current_utc_time());
+        var local_time = new Gtk.Label (current_local_time());
 
-        grid.add (new Gtk.Label("Current Time:"));
-        grid.attach (label, 0, 1);
+        grid.attach (new Gtk.Label("Current UTC Time:"), 0, 0);
+        grid.attach (utc_time, 0, 1);
+
+        grid.attach (new Gtk.Label(" "), 1, 2);
+
+        grid.attach (new Gtk.Label("Current Local Time:"), 0, 3);
+        grid.attach (local_time, 0, 4);
         main_window.add (grid);
         main_window.show_all ();
 
         // timeout for time update (in ms)
         Timeout.add (1000, () => {
-            label.set_label(current_time());
+            utc_time.set_label(current_utc_time());
+            local_time.set_label(current_local_time());
             main_window.show_all ();
 
             return true;
@@ -47,5 +62,6 @@ public class ClockApp : Gtk.Application {
     }
     public static int main (string[] args) {
         return new ClockApp ().run (args);
+    
     }
 }
