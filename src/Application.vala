@@ -6,7 +6,7 @@
 public class ClockApp : Gtk.Application {
     public ClockApp () {
         Object (
-            application_id: "com.github.michael_curtis0.michaels-clock-app",
+            application_id: "ccom.github.flocore.flocoreclock",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -21,7 +21,7 @@ public class ClockApp : Gtk.Application {
         var main_window = new Gtk.ApplicationWindow (this) {
             default_height = 300,
             default_width = 300,
-            title = "Michael's Clock"
+            title = "Flocore Clock"
         };
 
         // add clock grid

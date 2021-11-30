@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2021 Michael Curtis -->
+<!-- Copyright 2021 Flocore -->
 <component type="desktop">
-  <id>com.github.michael_curtis0.michaels-clock-app</id>
+  <id>com.github.flocoreclock.flocoreclock</id>
   <metadata_license>MIT</metadata_license>
   <name>Michael's Clock App</name>
-  <summary>A Clock by Michael.</summary>
+  <summary>A Clock by Flocore.</summary>
   <description>
-    <p>A Clock app by Michael.</p>
+    <p>A Clock app by Flocore.</p>
   </description>
   <screenshot></screenshot>
-  <developer_name>Michael Curtis</developer_name>
+  <developer_name>Flocore</developer_name>
   <content_rating type="oars-1.1" />
 </component>

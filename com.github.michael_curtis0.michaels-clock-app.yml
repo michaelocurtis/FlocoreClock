@@ -1,10 +1,10 @@
-app-id: com.github.michael_curtis0.michaels-clock-app
+app-id: com.github.flocore.flocoreclock
 
 runtime: io.elementary.Platform
 runtime-version: '6'
 sdk: io.elementary.Sdk
 
-command: com.github.michael_curtis0.michaels-clock-app
+command: com.github.flocore.flocoreclock
 
 finish-args:
   - '--share=ipc'
@@ -12,7 +12,7 @@ finish-args:
   - '--socket=wayland'
 
 modules:
-  - name: michaels-clock-app
+  - name: flocoreclock
     buildsystem: meson
     sources:
       - type: dir

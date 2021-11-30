@@ -1,4 +1,4 @@
-project('com.github.michael_curtis0.michaels-clock-app', 'vala', 'c')
+project('com.github.flocore.flocoreclock', 'vala', 'c')
 
 executable(
     meson.project_name(),
@@ -10,13 +10,13 @@ executable(
 )
 
 install_data(
-    'data' / 'michaels-clock-app.desktop',
+    'data' / 'flocoreclock.desktop',
     install_dir: get_option('datadir') / 'applications',
     rename: meson.project_name() + '.desktop'
 )
 
 install_data(
-    'data' / 'michaels-clock-app.appdata.xml',
+    'data' / 'flocoreclock.appdata.xml',
     install_dir: get_option('datadir') / 'metainfo',
     rename: meson.project_name() + '.appdata.xml'
 )

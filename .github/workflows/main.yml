@@ -19,9 +19,9 @@ jobs:
     - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
       with:
         # This is the name of the Bundle file we're building and can be anything you like
-        bundle: MichaelsClockApp.flatpak
+        bundle: FlocoreClock.flatpak
         # This uses your app's RDNN ID
-        manifest-path: com.github.michael_curtis0.michaels-clock-app.yml
+        manifest-path: com.github.flocore.flocoreclock.yml
         # You can automatically run any of the tests you've created as part of this workflow
         run-tests: true
         # These lines specify the location of the elementary Runtime and Sdk
